@@ -1,0 +1,123 @@
+body
+{
+    margin-right: 0;
+    margin-left: 0;
+}
+/* HEADER */
+nav
+{
+    position: absolute;
+    top: 25px;
+    right: 35px;
+}
+nav ul
+{
+    list-style-type: none;
+}
+nav ul li
+{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Calibri','sans-serif';
+    font-size: 22px;
+}
+.connexion
+{
+    background-color: rgb(0, 123, 255);
+    color: white;
+    width: min-content;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding-top: 6px;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    font-size: 24px;
+    font-weight: 50%;
+}
+/* MAIN */
+.logo
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}
+.barre_recherche
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 50px;
+    width: 700px;
+}
+.boutons
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+button
+{
+    background-color: rgba(244, 244, 244, 0.934);
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    width: 220px;
+    border: none;
+}
+input
+{
+    border: 1px solid rgb(255, 255, 255);
+    width: 570px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#Sigle_loupe
+{
+    height: 4%;
+    width: 4%;
+    padding-top: 23px;
+}
+#Sigle_micro
+{
+    height: 6%;
+    width: 6%;
+    padding-top: 16px;
+}
+.option_english
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    font-family: 'Calibri','sans-serif';
+    font-size: 22px;
+}
+/* FOOTER */
+footer
+{
+    background-color: rgb(232, 232, 232);
+    color: rgba(87, 87, 87, 0.783);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.rubriques_footer
+{
+    display: flex;
+    justify-content: space-between;  
+    flex-wrap: wrap;
+    font-family: 'Calibri','sans-serif';
+}
+footer div ul li
+{
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+footer p
+{
+    margin-left: 45px;  
+}
